@@ -16,7 +16,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:js": "eslint ./src",
+    "lint:js:fix": "eslint ./src --fix",
+    "lint:css": "stylelint ./src/**/*.css",
+    "lint:css:fix": "stylelint ./src/**/*.css --fix",
+    "say-hello": "echo 'HelloWorld' && echo 'awesome'"
   },
   "eslintConfig": {
     "extends": "react-app"
